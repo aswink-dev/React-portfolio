@@ -71,7 +71,7 @@ export const projects = [
     description:
       'A dark, responsive portfolio design built to present skills, projects, and contact details clearly.',
     technologies: ['React', 'Framer Motion', 'Tailwind CSS'],
-    github: profile.github,
+    github: 'https://github.com/aswink-dev/React-portfolio.git',
   },
 ]
 
