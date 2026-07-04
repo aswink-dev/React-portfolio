@@ -8,7 +8,8 @@ A modern, responsive developer portfolio built with **React**, **Vite**, **Tailw
 
 ## 📸 Preview
 
-![Portfolio Preview](portfolio-preview.png)
+<img width="1364" height="681" alt="portfolio-preview" src="https://github.com/user-attachments/assets/6d55f850-02c4-4f71-914a-9e5a7cacdfc4" />
+
 
 ---
 
