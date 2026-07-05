@@ -18,7 +18,7 @@ const Skills = () => {
             return (
               <motion.article
                 key={skill.name}
-                className="group rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-center shadow-lg shadow-black/20 transition hover:border-blue-400/60 hover:bg-white/[0.07]"
+                className="group rounded-2xl border border-white/10 bg-white/0.04 p-5 text-center shadow-lg shadow-black/20 transition hover:border-blue-400/60 hover:bg-white/[0.07]"
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.2 }}

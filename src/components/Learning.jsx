@@ -18,7 +18,7 @@ const Learning = () => {
             return (
               <motion.article
                 key={item.name}
-                className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 text-center shadow-lg shadow-black/20"
+                className="rounded-2xl border border-white/10 bg-white/0.04 p-6 text-center shadow-lg shadow-black/20"
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.2 }}

@@ -17,7 +17,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <motion.article
               key={project.title}
-              className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] shadow-xl shadow-black/20 transition hover:border-blue-400/50"
+              className="overflow-hidden rounded-2xl border border-white/10 bg-white/0.04 shadow-xl shadow-black/20 transition hover:border-blue-400/50"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
