@@ -8,7 +8,7 @@ const Projects = () => {
     <section id="projects" className="px-4 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeader
-          eyebrow="FEATURED WORK"
+          eyebrow="PROJECTS"
           title="Projects That I've Built"
           description="A selection of projects that showcase my journey as a frontend developer. Each project reflects my skills in React, JavaScript, Tailwind CSS, and building responsive, user-friendly web experiences."
         />
