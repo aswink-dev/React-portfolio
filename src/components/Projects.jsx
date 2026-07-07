@@ -8,9 +8,9 @@ const Projects = () => {
     <section id="projects" className="px-4 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeader
-          eyebrow="Projects"
-          title="Practice projects with real portfolio value"
-          description="These project placeholders are ready to connect to your GitHub repositories as you finish each build."
+          eyebrow="FEATURED WORK"
+          title="Projects That I've Built"
+          description="A selection of projects that showcase my journey as a frontend developer. Each project reflects my skills in React, JavaScript, Tailwind CSS, and building responsive, user-friendly web experiences."
         />
 
         <div className="grid gap-6 md:grid-cols-2">
