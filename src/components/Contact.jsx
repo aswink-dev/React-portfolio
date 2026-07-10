@@ -61,8 +61,8 @@ const Contact = () => {
       <div className="mx-auto max-w-6xl">
         <SectionHeader
           eyebrow="Contact"
-          title="Let us build something simple and useful"
-          description="Open to internships, junior frontend roles, freelance work, and learning opportunities."
+          title="Let's Create Something Great Together"
+          description="I'm open to frontend internships, junior developer opportunities, and collaborations where I can contribute, learn, and grow."
         />
 
         <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
@@ -118,7 +118,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your name"
+                  placeholder="Enter your name"
                   required
                   className="mt-2 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-blue-400"
                 />
@@ -128,7 +128,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="your@email.com"
+                  placeholder="Enter your email address"
                   required
                   className="mt-2 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-blue-400"
                 />
@@ -139,7 +139,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 rows="6"
-                placeholder="Tell me about your project or opportunity"
+                placeholder="Tell me about your project, opportunity, or idea..."
                 required
                 className="mt-2 w-full resize-none rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-blue-400"
               />

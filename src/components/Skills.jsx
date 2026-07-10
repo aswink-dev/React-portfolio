@@ -8,8 +8,8 @@ const Skills = () => {
       <div className="mx-auto max-w-6xl">
         <SectionHeader
           eyebrow="Skills"
-          title="Tools I use to build frontend projects"
-          description="A practical skill set for creating responsive, accessible, and maintainable web interfaces."
+          title="Technologies I use to build web applications"
+          description="Modern tools. Clean code. Better user experiences."
         />
 
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">

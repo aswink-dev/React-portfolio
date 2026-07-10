@@ -8,8 +8,8 @@ const Learning = () => {
       <div className="mx-auto max-w-6xl">
         <SectionHeader
           eyebrow="Currently learning"
-          title="Growing step by step"
-          description="I am expanding beyond frontend basics so I can understand complete web applications and collaborate better."
+          title="Expanding My Skill Set"
+          description="Building a stronger foundation by exploring modern tools, backend development, and scalable application architecture."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -29,6 +29,7 @@ const Learning = () => {
                   <Icon size={28} aria-hidden="true" />
                 </div>
                 <h3 className="font-semibold text-white">{item.name}</h3>
+                <p className='text-slate-400 py-4'>{item.subtitle}</p>
               </motion.article>
             )
           })}

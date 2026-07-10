@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion'
-import SectionHeader from './SectionHeader'
+import { motion } from "framer-motion";
+import SectionHeader from "./SectionHeader";
 
 const About = () => {
   return (
@@ -16,26 +16,29 @@ const About = () => {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.55, ease: 'easeOut' }}
+          transition={{ duration: 0.55, ease: "easeOut" }}
         >
           <div className="grid gap-6 text-slate-300 md:grid-cols-2">
             <p className="leading-8">
-              I am Aswin k, a beginner frontend developer learning how to build
-              modern websites with React.js, JavaScript, and Tailwind CSS. I
-              started learning web development because I enjoy creating useful
-              things and seeing ideas come alive in the browser.
+              I’m Aswin K, a frontend developer passionate about building
+              modern, responsive web applications with React.js, JavaScript, and
+              Tailwind CSS. I enjoy transforming ideas into intuitive,
+              user-friendly interfaces while writing clean and maintainable
+              code.
             </p>
+
             <p className="leading-8">
-              I am passionate about responsive design, clean layouts, and simple
-              user experiences. My goal is to become a professional frontend
-              developer who can contribute to real projects, keep learning from
-              experienced teams, and build websites that people enjoy using.
+              I’m continuously expanding my skills by building real-world
+              projects and exploring modern frontend technologies. My goal is to
+              contribute to meaningful products, collaborate with experienced
+              developers, and create digital experiences that are both
+              functional and visually engaging.
             </p>
           </div>
         </motion.div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -61,7 +61,7 @@ export const projects = [
     title: 'Responsive Admin Dashboard',
     image: adminDashboardImg,
     description:
-      'A clean dashboard layout with responsive cards, charts, quick stats, and a mobile-friendly sidebar.',
+      'Built a responsive admin dashboard featuring reusable UI components, interactive statistics cards, and a mobile-friendly sidebar to deliver a seamless user experience.',
     technologies: ['React', 'Tailwind CSS', 'JavaScript'],
     github: 'https://github.com/aswink-dev/React-Responsive-Admin-Dashboard.git',
   },
@@ -69,16 +69,17 @@ export const projects = [
     title: 'Personal Portfolio Website',
     image: portfolioImg,
     description:
-      'A dark, responsive portfolio design built to present skills, projects, and contact details clearly.',
+      'Designed and developed a fully responsive personal portfolio to showcase projects, technical skills, and professional experience with smooth animations and a modern UI.',
     technologies: ['React', 'Framer Motion', 'Tailwind CSS'],
     github: 'https://github.com/aswink-dev/React-portfolio.git',
   },
 ]
 
 export const learningItems = [
-  { name: 'Redux', icon: SiRedux },
-  { name: 'Node.js', icon: FaNodeJs },
-  { name: 'Express.js', icon: SiExpress },
-  { name: 'MongoDB', icon: SiMongodb },
-  { name: 'Next.js', icon: SiNextdotjs },
+  { name: 'Redux', icon: SiRedux , subtitle:'Scalable state management for React.'},
+  { name: 'Node.js', icon: FaNodeJs , subtitle:'JavaScript runtime for backend development.' },
+  { name: 'Express.js', icon: SiExpress , subtitle:'Building RESTful APIs with Node.js.' },
+  { name: 'MongoDB', icon: SiMongodb , subtitle:'NoSQL database for modern applications.' },
+  { name: 'Next.js', icon: SiNextdotjs , subtitle:'Full-stack React framework.' },
+
 ]

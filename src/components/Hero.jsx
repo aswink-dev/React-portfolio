@@ -22,9 +22,7 @@ const Hero = () => {
             Hi, I am <span className="text-blue-400">{profile.name}</span>
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
-            I build clean, responsive, and user-friendly web interfaces with
-            React.js. I enjoy turning simple ideas into polished websites that
-            work well on every screen.
+            I build responsive, modern web applications with React.js, JavaScript and Tailwind CSS, focusing on clean design, smooth user experiences, and maintainable code.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -36,6 +34,17 @@ const Hero = () => {
             >
               View Projects
             </motion.a>
+            
+            <motion.a
+              href="/resume/Aswin_K_Frontend_Developer_Resume.pdf"
+              download
+              className="inline-flex items-center justify-center rounded-xl border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-purple-400 hover:text-purple-300"
+              whileHover={{ y: -3 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              Download Resume
+            </motion.a>
+
             <motion.a
               href="#contact"
               className="inline-flex items-center justify-center rounded-xl border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-purple-400 hover:text-purple-300 focus:outline-none focus:ring-2 focus:ring-purple-300"
@@ -44,16 +53,8 @@ const Hero = () => {
             >
               Contact Me
             </motion.a>
-            <motion.a
-              href="/resume/Aswin_K_Resume.pdf"
-              download
-              className="inline-flex items-center justify-center rounded-xl border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-purple-400 hover:text-purple-300"
-              whileHover={{ y: -3 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              Download Resume
-            </motion.a>
           </div>
+
 
           <div className="mt-8 flex gap-4" aria-label="Social links">
             {socialLinks.map((link) => {
