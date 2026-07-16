@@ -1,7 +1,8 @@
-import { motion } from 'framer-motion'
-import { FaGithub } from 'react-icons/fa'
-import { projects } from '../data/portfolioData'
-import SectionHeader from './SectionHeader'
+import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
+import { projects } from "../data/portfolioData";
+import SectionHeader from "./SectionHeader";
 
 const Projects = () => {
   return (
@@ -31,7 +32,9 @@ const Projects = () => {
                 loading="lazy"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                <h3 className="text-xl font-bold text-white">
+                  {project.title}
+                </h3>
                 <p className="mt-3 leading-7 text-slate-400">
                   {project.description}
                 </p>
@@ -45,24 +48,38 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <motion.a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-6 inline-flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2.5 text-sm font-semibold text-white transition hover:border-blue-400 hover:text-blue-300"
-                  whileHover={{ y: -2 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  <FaGithub aria-hidden="true" />
-                  GitHub
-                </motion.a>
+                <div className="mt-6 flex items-center gap-3">
+                  <motion.a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-500"
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    <FiExternalLink />
+                    Live Demo
+                  </motion.a>
+
+                  <motion.a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2.5 text-sm font-semibold text-white transition hover:border-blue-400 hover:text-blue-300"
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    <FaGithub />
+                    GitHub
+                  </motion.a>
+                </div>
               </div>
             </motion.article>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
