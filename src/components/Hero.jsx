@@ -36,7 +36,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="/resume/Aswin_K_Frontend_Developer_Resume.pdf"
+              href="/resume/Aswin_K_MERN_Stack_Developer_Resume.pdf"
               download
               className="inline-flex items-center justify-center rounded-xl border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-purple-400 hover:text-purple-300"
               whileHover={{ y: -3 }}
